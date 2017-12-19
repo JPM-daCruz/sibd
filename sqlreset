@@ -1,0 +1,10 @@
+ssh sigma.tecnico.ulisboa.pt -l ist181622
+mysql -h db.ist.utl.pt -u ist181622 -p
+
+login: ist181622
+database: ist181622
+password: bsyq3544
+
+scp projecto.sql teste.sql trigger.sql ist181622@sigma.tecnico.ulisboa.pt:
+
+
